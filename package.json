@@ -1,7 +1,7 @@
 {
   "name": "czech-national-bank-exchange-rate",
-  "version": "1.0.1",
-  "description": "Official Czech National Bank (Czech Republic) daily exchange rates — ~33 currencies vs CZK, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.1.2",
+  "description": "Official Czech National Bank (Czech Republic) daily exchange rates — 30 currencies vs CZK, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "cnb",
     "czech",
