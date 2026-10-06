@@ -85,10 +85,10 @@ const pair = await getRate('EUR', 'CZK', { apiKey: 'art_live_...' });
 {
   bank: 'cnb',
   name: 'Czech National Bank',
-  rate_date: '2026-09-25',   // Czech National Bank's own publication date
+  rate_date: '2026-10-06',   // Czech National Bank's own publication date
   source: 'EUR',
   target: 'CZK',
-  rate: 24.35,
+  rate: 24.405,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cnb',
   name: 'Czech National Bank',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "EUR", "quote": "CZK", "type": "reference", "value": 24.35 },
+    { "base": "EUR", "quote": "CZK", "type": "reference", "value": 24.405 },
     // … the rest of the published table (30 currencies vs CZK)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'czech-national-bank-exchange-rate';
 
 const series = await getHistory(
-  { source: 'EUR', target: 'CZK', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'EUR', target: 'CZK', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'EUR',
   target: 'CZK',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 24.35, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 24.405, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
