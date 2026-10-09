@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/czech-national-bank-exchange-rate.svg)](https://github.com/AllRates-Today/czech-national-bank-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/czech-national-bank-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![EUR/CZK today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcnb%3Fsource%3DEUR%26target%3DCZK&query=%24.rate&label=EUR%2FCZK%20published%20by%20Czech%20National%20Bank&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cnb/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcnb%3Fsource%3DEUR%26target%3DCZK&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cnb/)
 
 **Official Czech National Bank (the Czech Republic) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Czech National Bank itself prints, every business day.**
 
@@ -32,6 +34,49 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Czech National Bank table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Czech National Bank — 30 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | CZK | reference | 15.146 |
+| BRL | CZK | reference | 4.344 |
+| CAD | CZK | reference | 15.295 |
+| CHF | CZK | reference | 26.173 |
+| CNY | CZK | reference | 3.254 |
+| DKK | CZK | reference | 3.265 |
+| EUR | CZK | reference | 24.4 |
+| GBP | CZK | reference | 28.807 |
+| HKD | CZK | reference | 2.779 |
+| HUF | CZK | reference | 0.06661 |
+| IDR | CZK | reference | 0.001219 |
+| ILS | CZK | reference | 7.09 |
+| INR | CZK | reference | 0.22536 |
+| ISK | CZK | reference | 0.1781 |
+| JPY | CZK | reference | 0.13784 |
+| KRW | CZK | reference | 0.01624 |
+| MXN | CZK | reference | 1.211 |
+| MYR | CZK | reference | 5.331 |
+| NOK | CZK | reference | 2.277 |
+| NZD | CZK | reference | 12.191 |
+| PHP | CZK | reference | 0.3462 |
+| PLN | CZK | reference | 5.577 |
+| RON | CZK | reference | 4.567 |
+| SEK | CZK | reference | 2.18 |
+| SGD | CZK | reference | 17.014 |
+| THB | CZK | reference | 0.6475 |
+| TRY | CZK | reference | 0.44317 |
+| USD | CZK | reference | 21.811 |
+| XDR | CZK | reference | 29.493 |
+| ZAR | CZK | reference | 1.309 |
+
+Source: [Official rates published by CNB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cnb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
