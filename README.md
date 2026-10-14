@@ -42,40 +42,40 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Czech National Bank — 30 rates. Updated 2026-10-14.
+Published **2026-10-14** by Czech National Bank — 30 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CZK | reference | 15.203 |
-| BRL | CZK | reference | 4.344 |
-| CAD | CZK | reference | 15.3 |
-| CHF | CZK | reference | 26.186 |
-| CNY | CZK | reference | 3.255 |
-| DKK | CZK | reference | 3.261 |
-| EUR | CZK | reference | 24.375 |
-| GBP | CZK | reference | 28.863 |
-| HKD | CZK | reference | 2.776 |
-| HUF | CZK | reference | 0.0669 |
-| IDR | CZK | reference | 0.001218 |
-| ILS | CZK | reference | 7.085 |
-| INR | CZK | reference | 0.22866 |
-| ISK | CZK | reference | 0.17896 |
-| JPY | CZK | reference | 0.13779 |
-| KRW | CZK | reference | 0.01625 |
-| MXN | CZK | reference | 1.188 |
-| MYR | CZK | reference | 5.332 |
-| NOK | CZK | reference | 2.285 |
-| NZD | CZK | reference | 12.232 |
-| PHP | CZK | reference | 0.3471 |
-| PLN | CZK | reference | 5.569 |
-| RON | CZK | reference | 4.568 |
-| SEK | CZK | reference | 2.182 |
-| SGD | CZK | reference | 17.023 |
-| THB | CZK | reference | 0.64873 |
-| TRY | CZK | reference | 0.44138 |
-| USD | CZK | reference | 21.788 |
-| XDR | CZK | reference | 29.484 |
-| ZAR | CZK | reference | 1.32 |
+| AUD | CZK | reference | 15.248 |
+| BRL | CZK | reference | 4.33 |
+| CAD | CZK | reference | 15.302 |
+| CHF | CZK | reference | 26.103 |
+| CNY | CZK | reference | 3.25 |
+| DKK | CZK | reference | 3.258 |
+| EUR | CZK | reference | 24.355 |
+| GBP | CZK | reference | 28.862 |
+| HKD | CZK | reference | 2.772 |
+| HUF | CZK | reference | 0.06705 |
+| IDR | CZK | reference | 0.001215 |
+| ILS | CZK | reference | 7.072 |
+| INR | CZK | reference | 0.22862 |
+| ISK | CZK | reference | 0.17856 |
+| JPY | CZK | reference | 0.1373 |
+| KRW | CZK | reference | 0.01627 |
+| MXN | CZK | reference | 1.184 |
+| MYR | CZK | reference | 5.329 |
+| NOK | CZK | reference | 2.297 |
+| NZD | CZK | reference | 12.215 |
+| PHP | CZK | reference | 0.34598 |
+| PLN | CZK | reference | 5.579 |
+| RON | CZK | reference | 4.558 |
+| SEK | CZK | reference | 2.183 |
+| SGD | CZK | reference | 16.962 |
+| THB | CZK | reference | 0.64801 |
+| TRY | CZK | reference | 0.44044 |
+| USD | CZK | reference | 21.754 |
+| XDR | CZK | reference | 29.425 |
+| ZAR | CZK | reference | 1.321 |
 
 Source: [Official rates published by CNB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cnb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
