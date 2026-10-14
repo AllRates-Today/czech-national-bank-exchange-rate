@@ -42,7 +42,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Czech National Bank — 30 rates. Updated 2026-10-13.
+Published **2026-10-13** by Czech National Bank — 30 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -132,10 +132,10 @@ const pair = await getRate('EUR', 'CZK', { apiKey: 'art_live_...' });
 {
   bank: 'cnb',
   name: 'Czech National Bank',
-  rate_date: '2026-10-12',   // Czech National Bank's own publication date
+  rate_date: '2026-10-13',   // Czech National Bank's own publication date
   source: 'EUR',
   target: 'CZK',
-  rate: 24.39,
+  rate: 24.375,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -160,9 +160,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cnb',
   name: 'Czech National Bank',
-  rate_date: '2026-10-12',
+  rate_date: '2026-10-13',
   rates: [
-    { "base": "EUR", "quote": "CZK", "type": "reference", "value": 24.39 },
+    { "base": "EUR", "quote": "CZK", "type": "reference", "value": 24.375 },
     // … the rest of the published table (30 currencies vs CZK)
   ],
   disclaimer: '…'
@@ -202,7 +202,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'czech-national-bank-exchange-rate';
 
 const series = await getHistory(
-  { source: 'EUR', target: 'CZK', from: '2026-01-01', to: '2026-10-12' },
+  { source: 'EUR', target: 'CZK', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -215,11 +215,11 @@ const series = await getHistory(
   source: 'EUR',
   target: 'CZK',
   from: '2026-01-01',
-  to: '2026-10-12',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-12', rate: 24.39, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 24.375, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -338,9 +338,9 @@ getRate('EUR', 'CZK', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
 
-- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/cnb.csv`)
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/cnb.csv`)
 - Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
-- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cnb/latest.json`
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cnb/latest.json`
 
 ## 🔗 Links
 
