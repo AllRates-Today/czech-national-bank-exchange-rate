@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Czech National Bank itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Czech National Bank table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,49 +47,45 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Czech National Bank — 30 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Czech National Bank — 30 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CZK | reference | 15.15 |
-| BRL | CZK | reference | 4.298 |
-| CAD | CZK | reference | 15.411 |
-| CHF | CZK | reference | 26.289 |
+| AUD | CZK | reference | 15.146 |
+| BRL | CZK | reference | 4.314 |
+| CAD | CZK | reference | 15.427 |
+| CHF | CZK | reference | 26.336 |
 | CNY | CZK | reference | 3.247 |
-| DKK | CZK | reference | 3.256 |
-| EUR | CZK | reference | 24.34 |
-| GBP | CZK | reference | 28.907 |
-| HKD | CZK | reference | 2.764 |
-| HUF | CZK | reference | 0.06701 |
-| IDR | CZK | reference | 0.001203 |
-| ILS | CZK | reference | 6.98 |
-| INR | CZK | reference | 0.22848 |
-| ISK | CZK | reference | 0.17845 |
-| JPY | CZK | reference | 0.13704 |
-| KRW | CZK | reference | 0.01631 |
-| MXN | CZK | reference | 1.174 |
-| MYR | CZK | reference | 5.313 |
-| NOK | CZK | reference | 2.306 |
-| NZD | CZK | reference | 12.301 |
-| PHP | CZK | reference | 0.34429 |
-| PLN | CZK | reference | 5.569 |
-| RON | CZK | reference | 4.569 |
-| SEK | CZK | reference | 2.192 |
-| SGD | CZK | reference | 16.955 |
-| THB | CZK | reference | 0.6462 |
-| TRY | CZK | reference | 0.4377 |
-| USD | CZK | reference | 21.69 |
-| XDR | CZK | reference | 29.421 |
-| ZAR | CZK | reference | 1.32 |
+| DKK | CZK | reference | 3.254 |
+| EUR | CZK | reference | 24.325 |
+| GBP | CZK | reference | 28.945 |
+| HKD | CZK | reference | 2.762 |
+| HUF | CZK | reference | 0.06672 |
+| IDR | CZK | reference | 0.001206 |
+| ILS | CZK | reference | 6.979 |
+| INR | CZK | reference | 0.22839 |
+| ISK | CZK | reference | 0.1786 |
+| JPY | CZK | reference | 0.13713 |
+| KRW | CZK | reference | 0.01633 |
+| MXN | CZK | reference | 1.171 |
+| MYR | CZK | reference | 5.31 |
+| NOK | CZK | reference | 2.311 |
+| NZD | CZK | reference | 12.319 |
+| PHP | CZK | reference | 0.3435 |
+| PLN | CZK | reference | 5.558 |
+| RON | CZK | reference | 4.562 |
+| SEK | CZK | reference | 2.187 |
+| SGD | CZK | reference | 16.961 |
+| THB | CZK | reference | 0.6445 |
+| TRY | CZK | reference | 0.43772 |
+| USD | CZK | reference | 21.681 |
+| XDR | CZK | reference | 29.375 |
+| ZAR | CZK | reference | 1.317 |
 
 </details>
 
 Source: [Official rates published by CNB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cnb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
