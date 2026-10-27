@@ -1,6 +1,6 @@
 {
   "name": "czech-national-bank-exchange-rate",
-  "version": "1.3.18",
+  "version": "1.3.19",
   "description": "Official Czech National Bank (Czech Republic) daily exchange rates — 30 currencies vs CZK, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "cnb",
@@ -28,7 +28,17 @@
     "official-rates",
     "czech-republic",
     "api",
-    "typescript"
+    "typescript",
+    "money",
+    "convert",
+    "conversion",
+    "exchange",
+    "rate",
+    "accounting",
+    "utilities",
+    "number",
+    "cart",
+    "ecommerce"
   ],
   "homepage": "https://allratestoday.com/central-bank-rates-api/cnb/",
   "repository": {
