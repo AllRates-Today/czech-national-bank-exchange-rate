@@ -32,40 +32,40 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-04 by Czech National Bank — 30 rates. Updated 2026-11-04.</summary>
+<summary>Table as text: published 2026-11-05 by Czech National Bank — 30 rates. Updated 2026-11-05.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CZK | reference | 15.134 |
-| BRL | CZK | reference | 3.948 |
-| CAD | CZK | reference | 15.479 |
-| CHF | CZK | reference | 26.467 |
-| CNY | CZK | reference | 3.233 |
-| DKK | CZK | reference | 3.253 |
-| EUR | CZK | reference | 24.31 |
-| GBP | CZK | reference | 29.118 |
-| HKD | CZK | reference | 2.749 |
-| HUF | CZK | reference | 0.06696 |
-| IDR | CZK | reference | 0.001188 |
-| ILS | CZK | reference | 6.823 |
-| INR | CZK | reference | 0.2279 |
-| ISK | CZK | reference | 0.1777 |
-| JPY | CZK | reference | 0.13632 |
-| KRW | CZK | reference | 0.01612 |
-| MXN | CZK | reference | 1.157 |
-| MYR | CZK | reference | 5.307 |
-| NOK | CZK | reference | 2.338 |
-| NZD | CZK | reference | 12.161 |
-| PHP | CZK | reference | 0.33955 |
-| PLN | CZK | reference | 5.526 |
-| RON | CZK | reference | 4.549 |
-| SEK | CZK | reference | 2.215 |
-| SGD | CZK | reference | 16.881 |
-| THB | CZK | reference | 0.64138 |
-| TRY | CZK | reference | 0.4312 |
-| USD | CZK | reference | 21.57 |
-| XDR | CZK | reference | 29.211 |
-| ZAR | CZK | reference | 1.311 |
+| AUD | CZK | reference | 15.159 |
+| BRL | CZK | reference | 3.969 |
+| CAD | CZK | reference | 15.5 |
+| CHF | CZK | reference | 26.46 |
+| CNY | CZK | reference | 3.246 |
+| DKK | CZK | reference | 3.25 |
+| EUR | CZK | reference | 24.29 |
+| GBP | CZK | reference | 29.137 |
+| HKD | CZK | reference | 2.759 |
+| HUF | CZK | reference | 0.0669 |
+| IDR | CZK | reference | 0.001197 |
+| ILS | CZK | reference | 6.824 |
+| INR | CZK | reference | 0.22911 |
+| ISK | CZK | reference | 0.17756 |
+| JPY | CZK | reference | 0.13661 |
+| KRW | CZK | reference | 0.0161 |
+| MXN | CZK | reference | 1.165 |
+| MYR | CZK | reference | 5.35 |
+| NOK | CZK | reference | 2.329 |
+| NZD | CZK | reference | 12.172 |
+| PHP | CZK | reference | 0.3436 |
+| PLN | CZK | reference | 5.534 |
+| RON | CZK | reference | 4.55 |
+| SEK | CZK | reference | 2.212 |
+| SGD | CZK | reference | 16.949 |
+| THB | CZK | reference | 0.64752 |
+| TRY | CZK | reference | 0.43289 |
+| USD | CZK | reference | 21.646 |
+| XDR | CZK | reference | 29.386 |
+| ZAR | CZK | reference | 1.319 |
 
 </details>
 
